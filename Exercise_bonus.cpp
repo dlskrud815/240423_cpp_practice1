@@ -28,8 +28,7 @@ int main()
 	mt19937 gen(rd()); //random_device 를 통해 난수 생성 엔진을 초기화
 	uniform_int_distribution<int> dis(1, 100); //1부터 100까지 균등하게 나타나는 난수열 생성을 위해 균등 분포 정의
 
-	// cout << "난수: " << dis(gen) << endl; //난수 생성 dis(gen)
-	int randNum = dis(gen);
+	int randNum = dis(gen); //분포가 균등한 난수 생성 <- dis(gen)
 	int inputNum;
 
 	//cout << "확인용: " << randNum << endl;
@@ -41,6 +40,7 @@ int main()
 
 		if (inputNum == randNum)
 		{
+			cout << "정답!!\n";
 			break;
 		}
 		else if (inputNum < randNum)
@@ -53,7 +53,7 @@ int main()
 		}
 	}
 
-	cout << "정답입니다! 게임 종료" << endl;
+	cout << endl << "게임 종료" << endl;
 
 	return 0;
 }
