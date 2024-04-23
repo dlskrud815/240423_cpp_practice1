@@ -54,7 +54,7 @@ int main()
 		a++;
 	}
 
-	cout << "1부터 100까지의 합은 : " << output << endl << endl;
+	cout << "1부터 " << input << "까지의 합은 : " << output << endl << endl;
 
 
 	//실습4 사용자가 입력한 숫자 더하기
