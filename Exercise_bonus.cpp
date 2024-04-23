@@ -32,7 +32,7 @@ int main()
 	int inputNum;
 
 	/*
-	for (int i = 1; i < 10; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		cout << "난수 분포 확인용: " << dis(gen) << endl;
 	}
