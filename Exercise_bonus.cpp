@@ -32,6 +32,8 @@ int main()
 	int randNum = dis(gen);
 	int inputNum;
 
+	//cout << "확인용: " << randNum << endl;
+
 	while (1)
 	{
 		cout << "숫자를 입력하세요: ";
@@ -52,12 +54,11 @@ int main()
 		}
 		if (inputNum == randNum)
 		{
-			cout << "정답입니다!" << endl;
 			break;
 		}
 	}
 
-	cout << "게임 종료" << endl;
+	cout << "정답입니다! 게임 종료" << endl;
 
 	return 0;
 }
