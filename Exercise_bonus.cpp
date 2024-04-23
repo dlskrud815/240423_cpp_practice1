@@ -31,7 +31,12 @@ int main()
 	int randNum = dis(gen); //분포가 균등한 난수 생성 <- dis(gen)
 	int inputNum;
 
-	//cout << "확인용: " << randNum << endl;
+	/*
+	for (int i = 1; i < 10; i++)
+	{
+		cout << "난수 분포 확인용: " << dis(gen) << endl;
+	}
+	*/
 
 	while (1)
 	{
