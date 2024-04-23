@@ -97,7 +97,7 @@ int main()
 
 		while (c <= b)
 		{
-			cout << "*";
+			cout << '*';
 			c++;
 		}
 		cout << endl;
