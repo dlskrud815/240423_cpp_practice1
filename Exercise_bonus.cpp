@@ -26,7 +26,7 @@ int main()
 {
 	random_device rd; //시드값을 얻기 위한 random_device 생성
 	mt19937 gen(rd()); //random_device 를 통해 난수 생성 엔진을 초기화 한다.
-	uniform_int_distribution<int> dis(0, 100); //0부터 100까지 균등하게 나타나는 난수열 생성을 위해 균등 분포 정의
+	uniform_int_distribution<int> dis(1, 100); //1부터 100까지 균등하게 나타나는 난수열 생성을 위해 균등 분포 정의
 
 	// cout << "난수: " << dis(gen) << endl; //난수 생성 dis(gen)
 	int randNum = dis(gen);
