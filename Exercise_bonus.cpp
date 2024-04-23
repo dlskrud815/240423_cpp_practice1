@@ -40,7 +40,7 @@ int main()
 
 		if (inputNum == randNum)
 		{
-			cout << "정답!!\n";
+			cout << endl << "정답입니다!" << endl;
 			break;
 		}
 		else if (inputNum < randNum)
