@@ -74,12 +74,12 @@ int main()
 		cin >> num;
 
 		if (num == 0) {
-			cout << "사용자가 입력한 수의 합은 : ";
 			break;
 		}
 		sum += num;
 	}
-	cout << sum << endl << endl;
+
+	cout << "사용자가 입력한 수의 합은 : " << sum << endl << endl;
 
 
 	//[번외] 실습. 입력한 숫자만큼 별 찍기
